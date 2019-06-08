@@ -10,11 +10,14 @@ class Caminhoneiros extends Model
         return $this->hasMany('App\Viagens');
     }
 
-    public function local(){
-        return $this->hasOne('App\Locais');
+    public function origem(){
+        return $this->belongsTo('App\Locais');
+    }
+    public function destino(){
+        return $this->belongsTo('App\Locais');
     }
     
     public function tipo_caminhao(){
-        return $this->hasOne('App\TiposCaminhoes');
+        return $this->belongsTo('App\TiposCaminhoes');
     }
 }

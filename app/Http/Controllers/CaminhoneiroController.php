@@ -141,6 +141,9 @@ class CaminhoneiroController extends Controller
     public function getOrigemDestino() {
         return Caminhoneiros::select('tipo_caminhao_id', 'origem_id', 'destino_id')
             ->groupBy('tipo_caminhao_id', 'origem_id', 'destino_id')
+            ->with('origem')
+            ->with('destino')
+            ->with('tipo_caminhao')
             ->get();
     }
 

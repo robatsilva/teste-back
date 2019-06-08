@@ -32,3 +32,6 @@ services:
       - "8081:8080"
     links:
       - mysql
+
+#composer config -g repo.packagist composer https://packagist.org
+#composer config -g github-protocols https ssh
