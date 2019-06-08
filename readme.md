@@ -36,7 +36,7 @@ Após esse comando, serão baixadas as imagens necessárias para rodar o php e o
 Quando os containes estiverem rodando, é necessário rodar os seguintes comandos para instalar as dependências do laravel e rodar os comandos para configuração do mysql.
 <b>
     docker-compose exec -it app composer install
-    docker-compose exec -it php artisan generate:key
+    docker-compose exec -it php artisan key:generate
     docker-compose exec -it app php artisan migrate:refresh --seed
 </b>
 
