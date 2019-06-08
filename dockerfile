@@ -1,22 +1,13 @@
 FROM ambientum/php:7.1-caddy
 
-RUN mkdir -p /app
+COPY . /var/www/app
 
-WORKDIR /app
-
-COPY . ./
+RUN sudo chmod -R 777 /var/www
 
 RUN composer install
 
-RUN composer update
+RUN ls
 
 RUN php artisan key:generate
 
-RUN php artisan migrate
-
-RUN php artisan migrate
-
-RUN php artisan migrate
-
-RUN php artisan db:seed
-
+RUN php artisan serve

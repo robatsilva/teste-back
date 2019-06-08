@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "17b588e7-47af-45a4-ae23-c17ea48bef80",
+		"name": "teste-back",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8081/api/caminhoneiros",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\":\"teste\",\n\t\"idade\":20,\n\t\"sexo\":\"m\",\n\t\"veiculo_proprio\":true,\n\t\"tipo_cnh\":\"d\",\n\t\"tipo_caminhao_id\":1,\n\t\"carregado\": false,\n\t\"origem_id\": 1,\n\t\"destino_id\": 2,\n\t\"destino_latitude\": 11.11111111,\n\t\"origem_latitude\": 11.11111111,\n\t\"destino_longitude\": 11.11111111,\n\t\"origem_longitude\": 11.11111111\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/caminhoneiros - put",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\":\"teste\",\n\t\"idade\":20,\n\t\"sexo\":\"m\",\n\t\"veiculo_proprio\":true,\n\t\"tipo_cnh\":\"d\",\n\t\"tipo_caminhao_id\":1,\n\t\"carregado\": false,\n\t\"origem_id\": 1,\n\t\"destino_id\": 2,\n\t\"destino_latitude\": 11.11111111,\n\t\"origem_latitude\": 11.11111111,\n\t\"destino_longitude\": 11.11111111,\n\t\"origem_longitude\": 11.11111111\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros"
+					]
+				},
+				"description": "put "
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/caminhoneiros/vazios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros/vazios",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros",
+						"vazios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/caminhoneiros/carregados_dia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros/carregados_dia",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros",
+						"carregados_dia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/caminhoneiros/carregados_semana",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros/carregados_semana",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros",
+						"carregados_semana"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/caminhoneiros/carregados_mes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros/carregados_semana",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros",
+						"carregados_semana"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/caminhoneiros/veiculos_proprios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros/veiculos_proprios",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros",
+						"veiculos_proprios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/caminhoneiros/origem_destino",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/caminhoneiros/origem_destino",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"caminhoneiros",
+						"origem_destino"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
