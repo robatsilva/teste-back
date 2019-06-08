@@ -60,6 +60,13 @@ Utilize o Postman para importar o arquivo e executar os requests.
 
 Caso não utilize Postman, segue requests dos endpoints:
 
+![image](https://user-images.githubusercontent.com/10313588/59148293-7a0d9900-89dd-11e9-8ca1-6eb5e4ac6fed.png)
+
+![image](https://user-images.githubusercontent.com/10313588/59148311-b3460900-89dd-11e9-950b-a20a54d33c0b.png)
+
+![image](https://user-images.githubusercontent.com/10313588/59148320-c6f16f80-89dd-11e9-8c08-c35888456055.png)
+
+
 #### Testes Unitários
 Para executar os testes unitários, rodar o comando
 
