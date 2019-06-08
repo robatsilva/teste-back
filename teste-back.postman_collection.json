@@ -38,7 +38,7 @@
 		{
 			"name": "localhost:8081/api/caminhoneiros - put",
 			"request": {
-				"method": "POST",
+				"method": "PUT",
 				"header": [
 					{
 						"key": "Content-Type",

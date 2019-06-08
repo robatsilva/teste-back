@@ -48,7 +48,8 @@ Quando os containes estiverem rodando, é necessário rodar os seguintes comando
 </b>
 
 Usei a ferramenta Postman para realizar as chamadas nas apis e exportei os testes no arquivo:
-teste-back.postman_collection.json:
+
+<b>teste-back.postman_collection.json:</b>
 
 Utilize o Postman para importar o arquivo e executar os requests.
 
