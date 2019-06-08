@@ -37,10 +37,10 @@ Para verificar se os containers estão rodando, digitar o seguinte comando:
 
 <b>docker ps</b>
 
-Deverá ser listado os container conforme abaixo:
+Deverá ser listado os containers conforme abaixo:
 
 
-Quando os containes estiverem rodando, é necessário rodar os seguintes comandos para instalar as dependências do laravel e rodar os comandos para configuração do mysql.
+Quando os containes estiverem rodando, é necessário rodar os seguintes comandos para instalar as dependências do laravel e rodar os comandos para configuração do mysql:<br>
 <b>
     docker-compose exec -it app composer install<br>
     docker-compose exec -it php artisan key:generate<br>
@@ -57,7 +57,7 @@ Caso não utilize Postman, segue requests dos endpoints:
 #### Testes Unitários
 Para executar os testes unitários, rodar o comando
 
-docker exec -it teste-back-app vendor/bin/phpunit
+<b>docker exec -it teste-back-app vendor/bin/phpunit</b>
 
 ## Observações
 Infelizmente tive alguns contratempos nessa semana e não pude me dedicar ao teste todos os dias.
