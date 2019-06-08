@@ -33,7 +33,7 @@ Após a instalação do docker e o projeto ter sido clonado ou baixado, basta en
 
 ![image](https://user-images.githubusercontent.com/10313588/59148258-c7d5d180-89dc-11e9-8c8b-b6c2efa1b76b.png)
 
-Após esse comando, serão baixadas as imagens necessárias para rodar o php e o mysql e serão criadas as tabelas, também serão instaladas as dependências do Laravel. Esse processo pode levar alguns minutos.
+Após esse comando, serão baixadas as imagens necessárias para rodar o php e o mysql. Esse processo pode levar alguns minutos.
 
 Para verificar se os containers estão rodando, digitar o seguinte comando:
 
@@ -43,7 +43,7 @@ Deverá ser listado os containers conforme abaixo:
 
 ![image](https://user-images.githubusercontent.com/10313588/59148264-e936bd80-89dc-11e9-8d3a-cf50f02dfb1b.png)
 
-Quando os containes estiverem rodando, é necessário rodar os seguintes comandos para instalar as dependências do laravel e rodar os comandos para configuração do mysql:<br><br>
+Quando os containes estiverem rodando, é necessário rodar os seguintes comandos para instalar as dependências do laravel e rodar os comandos para configuração do mysql (Também pode levar alguns minutos):<br><br>
 <b>
     docker exec -it app composer install<br>
     docker exec -it app php artisan key:generate<br>
