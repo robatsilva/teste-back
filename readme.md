@@ -45,9 +45,9 @@ Deverá ser listado os containers conforme abaixo:
 
 Quando os containes estiverem rodando, é necessário rodar os seguintes comandos para instalar as dependências do laravel e rodar os comandos para configuração do mysql (Também pode levar alguns minutos):<br><br>
 <b>
-    docker exec -it app composer install<br>
-    docker exec -it app php artisan key:generate<br>
-    docker exec -it app php artisan migrate:refresh --seed<br>
+    docker exec -it teste-back-app composer install<br>
+    docker exec -it teste-back-app php artisan key:generate<br>
+    docker exec -it teste-back-app php artisan migrate:refresh --seed<br>
 </b>
 <br>
 
